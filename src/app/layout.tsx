@@ -14,6 +14,9 @@ export const metadata: Metadata = {
   description: "Paste a job description, upload resumes, get ranked results instantly. Free and fast resume screening tool for recruiters and hiring managers.",
   keywords: ["resume screening", "resume ranking", "ATS", "candidate matching", "HR tool", "recruitment", "hiring"],
   authors: [{ name: "ResumeRank" }],
+  icons: {
+    icon: "/favicon.svg",
+  },
 };
 
 export default function RootLayout({

@@ -27,13 +27,7 @@ export function Header() {
           onClick={() => handleNav('upload')}
           className="flex items-center gap-2.5 transition-opacity hover:opacity-70"
         >
-          <svg width="28" height="28" viewBox="0 0 28 28" fill="none" className="text-teal-600">
-            <rect width="28" height="28" rx="6" fill="currentColor" fillOpacity="0.1"/>
-            <path d="M8 10L14 6L20 10V18L14 22L8 18V10Z" stroke="currentColor" strokeWidth="1.5" fill="currentColor" fillOpacity="0.2"/>
-            <path d="M14 6V22" stroke="currentColor" strokeWidth="1.2" opacity="0.4"/>
-            <path d="M8 10L20 18" stroke="currentColor" strokeWidth="1.2" opacity="0.4"/>
-            <path d="M20 10L8 18" stroke="currentColor" strokeWidth="1.2" opacity="0.4"/>
-          </svg>
+          <img src="/logo.svg" alt="ResumeRank" width="32" height="32" className="rounded" />
           <span className="text-lg font-bold tracking-tight text-gray-900">ResumeRank</span>
         </button>
 
