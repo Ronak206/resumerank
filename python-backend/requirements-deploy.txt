@@ -1,0 +1,10 @@
+# ResumeRank — Deployment requirements (no torch, no optimum)
+onnxruntime
+transformers
+huggingface_hub
+numpy
+pdfplumber
+python-docx
+fastapi
+uvicorn
+python-multipart

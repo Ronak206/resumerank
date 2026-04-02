@@ -1,0 +1,9 @@
+onnxruntime
+optimum
+transformers
+pdfplumber
+python-docx
+numpy
+fastapi
+uvicorn
+python-multipart

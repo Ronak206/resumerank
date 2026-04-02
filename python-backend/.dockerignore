@@ -1,0 +1,26 @@
+__pycache__
+*.pyc
+*.pyo
+.git
+.gitignore
+*.md
+node_modules
+.venv
+venv
+*.egg-info
+.pytest_cache
+.mypy_cache
+.ruff_cache
+
+# CLI scorer (not needed in Docker, only scorer.py FastAPI server)
+scorer_cli.py
+
+# Local dev requirements (Dockerfile uses requirements-deploy.txt)
+requirements.txt
+
+# Uploaded files / temp data
+uploads/
+*.pdf
+*.docx
+*.doc
+*.txt

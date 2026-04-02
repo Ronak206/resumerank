@@ -1,0 +1,11 @@
+# Ignore everything except python-backend/
+*
+!python-backend/
+!python-backend/**
+!Dockerfile
+
+# But exclude unnecessary files within python-backend/
+python-backend/scorer_cli.py
+python-backend/requirements.txt
+python-backend/__pycache__
+python-backend/*.pyc

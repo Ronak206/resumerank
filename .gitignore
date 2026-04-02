@@ -1,0 +1,48 @@
+# Dependencies
+node_modules/
+
+# Next.js
+.next/
+out/
+
+# Environment
+.env*
+!.env.example
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+
+# Temp
+/tmp/
+*.log
+server.log
+dev.log
+
+# OS
+.DS_Store
+
+# IDE
+.vscode/
+.idea/
+
+# TypeScript
+*.tsbuildinfo
+next-env.d.ts
+
+# Non-project files
+skills/
+examples/
+upload/
+download/
+db/
+.zscripts/
+mini-services/
+scripts/
+extract_cvs.js
+worklog.md
+Caddyfile
+prisma/
+bun.lock
